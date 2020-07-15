@@ -1,0 +1,25 @@
+#calculation {
+  background-color: #FAFAFA;
+  padding: 14.6rem 0;
+
+  .cal-result {
+    padding: 0 10rem;
+  }
+
+  .m-cal-result {
+    padding: 0;
+  }
+
+  .result-day,
+  .result-price {
+    font-size: 2.6rem;
+    color: #555555;
+    margin-top: 1rem;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+  }
+}

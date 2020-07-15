@@ -1,0 +1,68 @@
+{
+  "Advantage": {
+    "description": "Auto imported from components/Advantage.vue"
+  },
+  "LazyAdvantage": {
+    "description": "Auto imported from components/Advantage.vue"
+  },
+  "Banner": {
+    "description": "Auto imported from components/Banner.vue"
+  },
+  "LazyBanner": {
+    "description": "Auto imported from components/Banner.vue"
+  },
+  "Calculation": {
+    "description": "Auto imported from components/Calculation.vue"
+  },
+  "LazyCalculation": {
+    "description": "Auto imported from components/Calculation.vue"
+  },
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "NavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "LazyNavBar": {
+    "description": "Auto imported from components/NavBar.vue"
+  },
+  "NavFooter": {
+    "description": "Auto imported from components/NavFooter.vue"
+  },
+  "LazyNavFooter": {
+    "description": "Auto imported from components/NavFooter.vue"
+  },
+  "Service": {
+    "description": "Auto imported from components/Service.vue"
+  },
+  "LazyService": {
+    "description": "Auto imported from components/Service.vue"
+  },
+  "Transmit": {
+    "description": "Auto imported from components/Transmit.vue"
+  },
+  "LazyTransmit": {
+    "description": "Auto imported from components/Transmit.vue"
+  },
+  "Privacy": {
+    "description": "Auto imported from components/privacy.js"
+  },
+  "LazyPrivacy": {
+    "description": "Auto imported from components/privacy.js"
+  },
+  "ServiceTerms": {
+    "description": "Auto imported from components/serviceTerms.js"
+  },
+  "LazyServiceTerms": {
+    "description": "Auto imported from components/serviceTerms.js"
+  },
+  "Terms": {
+    "description": "Auto imported from components/terms.vue"
+  },
+  "LazyTerms": {
+    "description": "Auto imported from components/terms.vue"
+  }
+}

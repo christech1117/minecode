@@ -1,0 +1,335 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+  height: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  background-color: #fdfdfd;
+}
+
+html {
+  font-size: 10px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+* {
+  box-sizing: inherit;
+  // font-family: Noto Sans CJK TC, Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+  font-family: Noto Sans CJK TC;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.ps {
+  font-size: 12px;
+  color: $primary-btn;
+  // margin: 52px 15px 100px 15px;
+}
+
+.desc {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.m-desc {
+  font-size: 16px;
+  // margin-bottom: 50px;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
+
+
+//*** start form input style ***//
+.el-select {
+  display: block;
+}
+
+.el-input__inner {
+  font-size: 16px;
+  padding: 25px 20px;
+}
+
+.el-form-item__label {
+  font-size: 12px;
+  margin: 0;
+  padding: 0 !important;
+}
+
+.el-radio__label {
+  font-size: 16px;
+}
+
+.el-radio__input.is-checked .el-radio__inner {
+  border-color: $primary;
+  background: $primary;
+  background-clip: content-box;
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+  color: #606266;
+}
+
+.el-alert {
+  margin: 20px auto;
+}
+
+.el-alert--warning.is-light {
+  background-color: #f77272;
+  height: 50px;
+  color: #fff;
+}
+
+.el-alert.is-light .el-alert__closebtn {
+  font-size: 16px;
+  top: 15px;
+  color: #fff;
+}
+
+//*** end form input style ***//
+
+//*** start button style ***//
+.el-button--warning {
+  font-size: 20px;
+  padding: 22px 20px;
+  background-color: $primary;
+  border-color: $primary;
+}
+
+.btn-banner {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  width: 260px;
+  height: 60px;
+  background-color: $primary-btn;
+  border-color: $primary-btn;
+  border-radius: 30px;
+  margin: 17px 0;
+  padding: 15px;
+
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $primary-btn;
+    border-color: $primary-btn;
+    color: #fff;
+  }
+}
+
+//*** end button style ***//
+
+.el-form-item__error {
+  top: -58% !important;
+  // right: 0 !important;
+  left: auto;
+  right: 0;
+}
+
+// sweetalert
+.swal2-icon.swal2-success .swal2-success-ring {
+  border: .25em solid rgba(255, 191, 63, 0.276);
+}
+
+.swal2-icon.swal2-success {
+  border-color: #FFBF3F;
+}
+
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+  background-color: #FFBF3F;
+}
+
+// element-ui
+.el-progress-bar__outer {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 0;
+}
+
+.el-progress-bar__inner {
+  border-radius: 0;
+}
+
+.el-progress-bar {
+  padding-right: 0;
+}
+
+.progress1 {
+  .el-progress-bar__inner {
+
+    &:before {
+      content: url('../../assets/images/icon_success.svg');
+    }
+
+    &:after {
+      content: '3天';
+      margin: 0.7rem 1rem;
+    }
+  }
+}
+
+.progress2 {
+  .el-progress-bar__inner {
+
+    &:before {
+      content: url('../../assets/images/icon_success.svg');
+    }
+
+    &:after {
+      content: '4天';
+      margin: 0.7rem 1rem;
+    }
+  }
+}
+
+.progress3 {
+  .el-progress-bar__inner {
+
+    &:before {
+      content: 'NT$2,056';
+      margin: 0 1rem;
+    }
+  }
+}
+
+.progress4 {
+  .el-progress-bar__inner {
+
+    &:before {
+      content: 'NT$2,570';
+      margin: 0 1rem;
+    }
+  }
+}
+
+.el-progress__text {
+  font-size: 0 !important;
+}
+
+// .el-progress {
+//   position: relative;
+
+//   .text {
+//     position: relative;
+//     top: 0;
+//     left: 0;
+//   }
+// }
+
+
+// 桌機
+.main-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.main-banner-title {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin: 0.2rem auto;
+}
+
+.sub-title {
+  font-size: 2.6rem;
+  margin: 1.5rem auto;
+}
+
+.content {
+  font-size: 2rem;
+  height: 40rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.day,
+.price {
+  font-size: 1.2rem;
+  color: #999999;
+  margin-top: 2.5rem;
+}
+
+// 手機
+@media (max-width: 600px) {
+  .main-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .main-banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    margin: 3rem auto 2rem auto;
+  }
+
+  .sub-title {
+    font-size: 1.6rem;
+    margin: 1.5rem auto;
+  }
+
+  .content {
+    font-size: 2rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 5rem auto;
+  }
+
+  .day,
+  .price {
+    margin-top: 0rem;
+  }
+
+  .price {
+    margin-top: 2rem;
+  }
+}
+
+// @media (min-width: 600px) and (max-width: 1200px) {
+//   .main-title {
+//     font-size: calc(3rem + (2 - 1.4) * ((100vw - 600px) / (1200 - 800)));
+//   }
+// }

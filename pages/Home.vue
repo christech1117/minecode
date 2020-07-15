@@ -2,11 +2,11 @@
   <div>
     <nav-bar />
     <banner />
-    <!-- <advantage /> -->
+    <advantage />
     <service />
     <!-- <calculation /> -->
     <transmit />
-    <nav-footer />
+    <!-- <nav-footer /> -->
     <!-- <a-back-top /> -->
   </div>
 </template>
@@ -15,22 +15,22 @@
 // @ is an alias to /src
 import NavBar from '@/components/NavBar.vue'
 import Banner from '@/components/Banner.vue'
-// import Advantage from '@/components/Advantage.vue'
+import Advantage from '@/components/Advantage.vue'
 import Service from '@/components/Service.vue'
 // import Calculation from '@/components/Calculation.vue'
 import Transmit from '@/components/Transmit.vue'
-import NavFooter from '@/components/NavFooter.vue'
+// import NavFooter from '@/components/NavFooter.vue'
 
 export default {
   name: 'Home',
   components: {
     NavBar,
     Banner,
-    // Advantage,
+    Advantage,
     Service,
     // Calculation,
-    Transmit,
-    NavFooter
+    Transmit
+    // NavFooter
   }
 }
 </script>

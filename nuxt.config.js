@@ -1,5 +1,11 @@
+const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
+  router: {
+    base: '/minecode/'
+  }
+} : {}
 
 export default {
+  ...routerBase,
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -30,12 +36,15 @@ export default {
   */
   css: [
     '@/assets/scss/main.scss',
+    {src:'element-ui/lib/theme-chalk/index.css'}
   ],
   /*
   ** Plugins to load before mounting the App
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
+    {src:'~plugins/main', ssr: false},
+    // {src:'~plugins/vue-scrollactive', ssr: false},
   ],
   /*
   ** Auto import components
@@ -59,5 +68,8 @@ export default {
   ** See https://nuxtjs.org/api/configuration-build/
   */
   build: {
-  }
+    vendor: ['element-ui']
+  },
+
+  buildDir: 'nuxt-dist'
 }

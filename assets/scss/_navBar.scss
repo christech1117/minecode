@@ -1,0 +1,56 @@
+#nav-bar {
+  .navbar.vue-fixed-header {
+    background-color: #264d80;
+    color: #fff;
+
+    .navbar-brand {
+      background: url('../../assets/images/logo.svg') no-repeat center;
+      width: 110px;
+      height: 60px;
+    }
+  }
+
+  .navbar.vue-fixed-header--isFixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.3s ease-out forwards;
+    background-color: #fff;
+    color: #264d80;
+    box-shadow: 0px 1px 1px #dddddd;
+
+    .navbar-brand {
+      background: url('../../assets/images/logo2.svg') no-repeat center;
+      width: 110px;
+      height: 60px;
+    }
+  }
+  .nav-item.nav-link.scrollactive-item {
+    color: #264d80;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color: transparent !important;
+  }
+
+  .nav-link {
+    padding-left: 2.5rem !important;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-74px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

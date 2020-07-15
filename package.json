@@ -7,15 +7,21 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "export": "nuxt export",
-    "serve": "nuxt serve"
+    "serve": "nuxt serve",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
     "bootstrap-vue": "^2.15.0",
-    "nuxt": "^2.13.0"
+    "element-ui": "^2.8.2",
+    "nuxt": "^2.13.0",
+    "vue-fixed-header": "^3.2.14",
+    "vue-scrollactive": "^0.9.3"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",
+    "push-dir": "^0.4.1",
     "sass-loader": "^8.0.2"
   }
 }

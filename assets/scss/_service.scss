@@ -1,0 +1,26 @@
+#service {
+  background: url('../../assets/images/service-bg.png') no-repeat center top;
+  // margin: 100px auto;
+  padding: 147px 0 100px 0;
+
+  img {
+    width: 100%;
+  }
+
+  .box {
+    width: 550px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .content {
+      font-size: 20px;
+    }
+  }
+
+  .zone {
+    margin-top: 149px;
+  }
+}

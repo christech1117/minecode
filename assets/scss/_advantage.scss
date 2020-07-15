@@ -1,0 +1,27 @@
+#advantage {
+  background-image: url('../../assets/images/advantage.png');
+  padding: 146px 0;
+  background-color: #FAFAFA;
+  height: 900px;
+
+  .progress-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: right;
+  }
+
+  .advantage-title {
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-left: 3rem;
+  }
+
+  .zone {
+    margin-left: 6rem;
+  }
+
+  .el-row {
+    width: 100%;
+    margin: 1rem 0;
+  }
+}

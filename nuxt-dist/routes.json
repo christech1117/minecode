@@ -1,0 +1,51 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/chrishsieh/code/minecode/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_961fd0f0"
+  },
+  {
+    "name": "Home",
+    "path": "/Home",
+    "component": "/Users/chrishsieh/code/minecode/pages/Home.vue",
+    "chunkName": "pages/Home",
+    "_name": "_218ea858"
+  },
+  {
+    "name": "PageNotFound",
+    "path": "/PageNotFound",
+    "component": "/Users/chrishsieh/code/minecode/pages/PageNotFound.vue",
+    "chunkName": "pages/PageNotFound",
+    "_name": "_fc213ada"
+  },
+  {
+    "name": "privacy",
+    "path": "/privacy",
+    "component": "/Users/chrishsieh/code/minecode/pages/privacy.vue",
+    "chunkName": "pages/privacy",
+    "_name": "_da1d957a"
+  },
+  {
+    "name": "service",
+    "path": "/service",
+    "component": "/Users/chrishsieh/code/minecode/pages/service.vue",
+    "chunkName": "pages/service",
+    "_name": "_73370c20"
+  },
+  {
+    "name": "works",
+    "path": "/works",
+    "component": "/Users/chrishsieh/code/minecode/pages/works.vue",
+    "chunkName": "pages/works",
+    "_name": "_46d50cfd"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/chrishsieh/code/minecode/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_56b01b66"
+  }
+]
